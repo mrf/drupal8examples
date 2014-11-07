@@ -1,0 +1,6 @@
+<?php
+\Drupal::config('presentation.settings')
+  ->set('seconds_to_wait', 24 * 3600)
+  ->save();
+
+\Drupal::config('presentation.settings')->get('seconds_to_wait');

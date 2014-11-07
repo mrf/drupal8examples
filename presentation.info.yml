@@ -1,0 +1,8 @@
+name: Drupal 8 Module Development
+description: Example code for http://mrf.github.io/drupal8-modules
+package: Custom
+type: module
+version: 1.0
+core: 8.x
+dependencies:
+  - block
