@@ -2,6 +2,6 @@ presentation.callback:
   path: '/presentation/callback'
   defaults:
     _content: '\Drupal\presentation\Controller\PresentationController::myPage'
-    _title: 'Books'
+    _title: 'My Special Callback'
   requirements:
     _permission: 'access content'
