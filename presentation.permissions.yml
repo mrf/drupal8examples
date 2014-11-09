@@ -1,0 +1,4 @@
+administer presentation:
+  title: 'Administer presentation'
+  description: 'Perform administration tasks for presentation.'
+  restrict access: TRUE
