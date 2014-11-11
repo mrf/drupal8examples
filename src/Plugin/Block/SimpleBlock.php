@@ -26,7 +26,7 @@ class SimpleBlock extends BlockBase {
   public function build() {
     return array(
       '#type' => 'markup',
-      '#markup' => t("My block content"),
+      '#markup' => $this->t("My block content"),
     );
   }
 }
